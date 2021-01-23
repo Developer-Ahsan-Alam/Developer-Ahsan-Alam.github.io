@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bodoni Moda', serif;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+h1,h2,,h3,h4,h5,h6{
+    font-family: 'Yusei Magic', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background: url(images/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color:black;
+    border-bottom: 1px solid black;
+}
+.n-area ul li a{
+    color: white !important;
+    font-family: 'Fraunces', serif;
+    transition: .5s;
+    margin: 2px;
+}
+.n-area ul li:hover a{
+color:yellow !important;
+text-decoration: underline 4px red;
+transition: .5s;
+}
+
+
+.fas{
+    color: white;
+}
+/* header finished */
+
+.bb{
+    padding: 80px 0;
+}
+.bb1{
+    margin-bottom: 80px;
+}
+.banner-container{
+    height: 70vh;
+}
+.banner-content h1{
+    color:white;
+    font-size: 3.5rem;
+    background-color: rgba(29, 71, 168,.8);
+    padding: 10px;
+}
+.banner-content button{
+    background-color: rgba(0, 0, 0, .8);
+    border: 3px solid red;
+}
+
+.card-area{
+    background-color: #0099FF;
+    margin-top: -10px !important;
+    
+}
+.services h1{
+    background-color: #0099FF;
+}
+.act{
+    background-color:#0099FF ;
+    margin: 0;
+    padding-top: 50px;
+}
+.card{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.card3{
+    margin: 4px 0;
+}
+
+/* .services ends here */
+
+.svg2{
+    margin-top: -250px;
+}
+
+
+/* about section bellow */
+
+#about{
+    background: url(images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -200px !important;
+}
+.py-3{
+    padding-top: 170px !important;
+
+}
+.text{
+    background-color: rgba(168, 50, 113,.4) ;
+    padding: 5px 0px;
+}
+/* upeer zipper bellow */
+.upper{
+    position: fixed;
+    top: 90%;
+    left: 93%;
+}
+
+
+/* loader */
+.loader {
+    border: 16px solid #40eb3a;
+    border-radius: 50%;
+    border-top: 16px solid rgb(247, 23, 23);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 45%;
+    left: 45%; 
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* loader */
+
+.pics:hover{
+    transform: scale(1.1);
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.messege{
+    padding-right: 263px;
+}
+
+
+.contact{
+    background-color: rgba(129, 34, 66, 0.123);
+}
+
+
+footer{
+    background-color: darkgrey;
+}
+.fab:hover{
+transform: scale(1.1);
+transition: .2s;
+}
+
+
+/* Additional css which is temporary for test use it will be deleted */
+/* Additional css which is temporary for test use it will be deleted */
+.navbar-brand h2{
+    color: white;
+}

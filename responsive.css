@@ -1,0 +1,49 @@
+@media(max-width: 558px){
+    .svg2{
+        margin-top: -104px !important;
+    }
+    #about{
+        margin-top: 0 !important;
+    }
+    .py-3 {
+        padding-top: 33px !important;
+    }
+    .upper{
+            position: fixed;
+            top: 81%;
+            left: 91%;
+            height: 31px;
+            width: 30px;
+    }
+    .n-area ul li a{
+        color: white !important;
+        font-family: 'Fraunces', serif;
+        margin: 2px;
+    }
+    .n-area ul li:hover a{
+        color:yellow !important;
+        text-decoration: underline 4px red;
+        background-color: rgba(0, 0, 0, .1);
+        }
+        .curv1{
+            display: none;
+        }
+        .loader{
+            position: fixed;
+            top: 45%;
+            left: 38%;
+            width: 80px;
+            height: 80px;
+        }
+        .soto{
+            text-align: center;
+            margin: auto;
+        }
+
+        .messege {
+            padding-right: 183px;
+        }
+        
+}
+
+
